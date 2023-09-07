@@ -15,6 +15,7 @@ composer update
 php artisan migrate --seed
 ```
 4. Run your Laravel application
-5. Go to http://localhost/admin/login , login as <EMAIL> password:<PASSWORD>.
+    php artisan serve
+5. Go to http://127.0.0.1:8000/admin/login , login as <EMAIL> password:<PASSWORD>.
 6. You will see dashboard page after successful authentication
-7. Now go to http://localhost/dashboard , this route only accessible if user loggedin
+7. Now go to http://127.0.0.1:8000/admin/dashboard , this route only accessible if user loggedin
