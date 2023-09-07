@@ -19,6 +19,6 @@ php artisan migrate --seed
     php artisan serve
 ```
 5. Go to http://127.0.0.1:8000/admin/login , login as <EMAIL> password:<PASSWORD>.
-<img alt="Awesome GitHub Profile Readme" src="gitimage/adminlogin.PNG"> </img>
+<img alt="Awesome GitHub Profile Readme" src="public/image/adminlogin.PNG"> </img>
 6. You will see dashboard page after successful authentication
 7. Now go to http://127.0.0.1:8000/admin/dashboard , this route only accessible if user loggedin
