@@ -10,6 +10,9 @@ Getting Started
 composer update 
 ```
 2. Create .env file from env.example
+```bash
+copy .env.example .env
+```
 3. Run migration for create users table, admins  tables :
 ```bash
 php artisan migrate --seed
