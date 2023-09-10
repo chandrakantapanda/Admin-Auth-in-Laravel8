@@ -13,15 +13,20 @@ composer update
 ```bash
 copy .env.example .env
 ```
-3. Run migration for create users table, admins  tables :
+4. Generate Application Key for your application.
+```bash
+php artisan key:generate
+```
+5. Run migration for create users table, admins  tables :
 ```bash
 php artisan migrate --seed
 ```
-4. Run your Laravel application
+6. Run your Laravel application
 ```bash
     php artisan serve
 ```
-5. Go to http://127.0.0.1:8000/admin/login , login as <EMAIL> password:<PASSWORD>.
+7. Go to http://127.0.0.1:8000/admin/login , login as <EMAIL> password:<PASSWORD>.
 <img alt="Awesome GitHub Profile Readme" src="public/image/adminlogin.PNG"> </img>
-6. You will see dashboard page after successful authentication
-7. Now go to http://127.0.0.1:8000/admin/dashboard , this route only accessible if user loggedin
+
+8. You will see dashboard page after successful authentication
+9. Now go to http://127.0.0.1:8000/admin/dashboard , this route only accessible if user loggedin

@@ -1,5 +1,5 @@
 <footer class="main-footer">
-    <strong> Copyright © All rights reserved  
+    <strong> Copyright © All rights reserved | Manage <i class="icon-heart2" aria-hidden="true"></i> by <a href="http://websmojo.com/" target="_blank">Websmojo</a>
 </footer>
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -199,12 +199,15 @@
 		
 			</div>
 			<!-- /.content-wrapper -->
-    
+<!-- jQuery 3 -->
 <!-- Bootstrap 3.3.7 -->
-<script type="text/javascript" src="{{URL::asset('js/admin/bootstrap.min.js')}}"></script>
+<script src="{{ asset('public/js/admin/bootstrap.min.js') }}"></script>
 <!-- DataTables -->
-<script type="text/javascript" src="{{URL::asset('js/admin/jquery.dataTables.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/admin/dataTables.bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/admin/adminlte.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/admin/Chart.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/admin/dashboard2.js')}}"></script>
+<script src="{{ asset('public/js/admin/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('public/js/admin/dataTables.bootstrap.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ asset('public/js/admin/adminlte.min.js') }}"></script>
+
+<script src="{{ asset('public/js/admin/Chart.js') }}"></script>
+<script src="{{ asset('public/js/admin/dashboard2.js') }}"></script>
+@yield('script')
